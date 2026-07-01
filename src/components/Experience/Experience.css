@@ -1,0 +1,30 @@
+.experience.bg-alt {
+  background-color: var(--bg-alt);
+}
+
+.experience-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  padding: 2.5rem;
+  background: var(--bg-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.exp-header h3 {
+  font-size: 1.5rem;
+}
+
+.company {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.experience-item p {
+  font-size: 1.1rem;
+}

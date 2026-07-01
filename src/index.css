@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #d4af37; /* Gold */
+  --secondary-color: #b8860b; /* Dark Gold */
+  --text-color: #f4f4f4; /* Off-white for readability on black */
+  --text-light: #a0a0a0; /* Light gray */
+  --bg-color: #000000; /* Black */
+  --bg-alt: #111111; /* Darker gray/black */
+  --border-color: #333333;
+  --container-width: 1100px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; /* Prevent any element from overflowing its parent */
+}
+
+html {
+  scroll-behavior: auto;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  overscroll-behavior-x: none; /* Disable horizontal bounce/swipe effects */
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-color);
+  line-height: 1.8;
+  background-color: var(--bg-color);
+  font-size: 1.1rem;
+  overflow-x: hidden;
+  width: 100%;
+  touch-action: pan-y; /* Only allow vertical scrolling, disable horizontal swipe */
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: none; /* Disable horizontal bounce/swipe effects */
+}
+
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+  
+  section {
+    padding: 3rem 0;
+  }
+}

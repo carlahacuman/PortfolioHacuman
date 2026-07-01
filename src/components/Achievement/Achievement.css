@@ -1,0 +1,24 @@
+.achievement.bg-alt {
+  background-color: var(--bg-alt);
+}
+
+.achievement-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.achievement-item {
+  padding: 2rem;
+  border-left: 4px solid var(--primary-color);
+  background: var(--bg-color);
+  margin-bottom: 1rem;
+}
+
+.achievement-item h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-item p {
+  font-size: 1.1rem;
+}

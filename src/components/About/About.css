@@ -1,0 +1,10 @@
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
