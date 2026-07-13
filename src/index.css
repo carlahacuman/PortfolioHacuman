@@ -7,6 +7,24 @@
   --bg-alt: #111111; /* Darker gray/black */
   --border-color: #333333;
   --container-width: 1100px;
+  
+  /* Navbar theme variables */
+  --nav-bg: rgba(17, 17, 17, 0.75);
+  --nav-bg-scrolled: rgba(10, 10, 10, 0.9);
+  --mobile-nav-bg: rgba(17, 17, 17, 0.95);
+}
+
+:root[data-theme="light"] {
+  --text-color: #111111; /* Near Black */
+  --text-light: #555555; /* Slate Gray */
+  --bg-color: #ffffff; /* Pure White */
+  --bg-alt: #f8f9fa; /* Soft Gray */
+  --border-color: #e2e8f0; /* Light border */
+  
+  /* Navbar theme variables */
+  --nav-bg: rgba(255, 255, 255, 0.75);
+  --nav-bg-scrolled: rgba(255, 255, 255, 0.9);
+  --mobile-nav-bg: rgba(255, 255, 255, 0.98);
 }
 
 * {
