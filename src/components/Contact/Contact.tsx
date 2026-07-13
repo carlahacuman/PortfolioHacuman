@@ -12,13 +12,13 @@ const Contact: React.FC = () => {
             <p>Feel free to reach out for collaborations or just to say hi!</p>
             <ul className="info-list">
               <li>
-                <strong>Email:</strong> carla.hacuman@example.com
+                <strong>Email:</strong> nuevo.carla4@gmail.com
               </li>
               <li>
-                <strong>LinkedIn:</strong> linkedin.com/in/carlahacuman
+                <strong>LinkedIn:</strong> linkedin.com/in/carla-hacuman-ba035b384
               </li>
               <li>
-                <strong>Location:</strong> City, Country
+                <strong>Location:</strong> Cebu City, Cebu, Philippines
               </li>
             </ul>
           </div>
